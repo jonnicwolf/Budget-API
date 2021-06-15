@@ -1,0 +1,33 @@
+{
+  "name": "budget-api",
+  "version": "1.0.0",
+  "description": "A budgetting app API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnicwolf/Budget-API.git"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "budget",
+    "budgetting"
+  ],
+  "author": "Fez Narine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnicwolf/Budget-API/issues"
+  },
+  "homepage": "https://github.com/jonnicwolf/Budget-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.15.0"
+  }
+}
