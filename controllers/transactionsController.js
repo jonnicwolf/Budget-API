@@ -6,4 +6,4 @@ transactions.get('/', (req, res) => {
     res.json(statements)
 })
 
-module.exports = transactions
+module.exports = transactions;
