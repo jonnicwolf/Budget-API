@@ -1,4 +1,4 @@
-const statements = [
+const transactions = [
   {
     date: Date.now(),
     name: "Poshmark",
@@ -20,6 +20,6 @@ const statements = [
 //     return sum;
 // }
 
-module.exports = statements
+module.exports = transactions
 
 

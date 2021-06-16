@@ -1,19 +1,18 @@
-const express = require("express");
-const cors = require("cors");
+const express = require('express')
+const cors = require('cors')
 
-const app = express();
+const app = express()
+const transactionsController
+    = require('./controllers/transactionsController')
 
-
-
-
-app.use(express.json()); // returns middleware that only parses JSON
-
-// this allows any app/site from anywhere access your API. This is a great way to start to get things up and running. Later, add restrictions, as needed.
 app.use(cors());
+app.use(express.json());
 
-// Routes
 app.get("/", (req, res) => {
-    res.send("Welcome to the budgeting app!");
+  res.send("Welcome to the budgeting app!");
 });
 
-module.exports = app
+app.use('/transactions', transactionsController)
+
+
+module.exports = app;
