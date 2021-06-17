@@ -1,12 +1,12 @@
 module.exports = [
   {
-    date: Date.now(),
+    date: Date(),
     name: "Poshmark",
     amount: 100,
     from: "",
   },
   {
-    date: Date.now(),
+    date: Date(),
     name: "Apple",
     amount: 220,
     from: "",

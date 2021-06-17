@@ -12,4 +12,9 @@ transactions.get('/:index', (req, res) => {
     res.json(statements[index])
 })
 
+//POST/add a new transaction to the statements array
+// transactionsapp.post('/', function (req, res) {
+//     res.send('POST Successful!')
+//   })
+
 module.exports = transactions;
