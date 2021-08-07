@@ -1,7 +1,7 @@
 const express = require('express')
 const transactions = express.Router()
 const statements = require('../models/transactions.js')
-// const cors = require('cors')
+
 const app = require('../app.js')
 
 // app.use(cors())
